@@ -1,0 +1,18 @@
+.title {
+    font-size: 50px;
+    -unity-font-definition: url('project://database/Assets/Unity%20UI%20Samples/Fonts/Jupiter/Jupiter.ttf?fileID=12800000&guid=7cb2912222469634ba17a77055919ea8&type=3#Jupiter');
+    -unity-text-align: middle-center;
+}
+
+.button {
+    width: 100px;
+    left: auto;
+    background-image: url('project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Textures/Brushed%20Metal%203.jpg?fileID=2800000&guid=f88677df267a41d6be1e7a6133e7d227&type=3#Brushed Metal 3');
+    align-self: center;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    width: 120px;
+    background-image: url('project://database/Assets/TextMesh%20Pro/Examples%20&%20Extras/Textures/Gradient%20Diagonal%20(Color).jpg?fileID=2800000&guid=2ce5c55e85304b819a1826ecbc839aa5&type=3#Gradient Diagonal (Color)');
+}

@@ -1,0 +1,14 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Style.uss?fileID=7433441132597879392&amp;guid=1cda91b96a5418f41b568c311f2e857f&amp;type=3#Style" />
+    <ui:VisualElement name="Screen" style="flex-grow: 1; margin-top: 0; margin-right: 0; margin-bottom: 0; margin-left: 0; border-top-width: 50px; border-right-width: 50px; border-bottom-width: 50px; border-left-width: 50px; background-image: url(&apos;project://database/Assets/Background%20Images/Field%201.jpeg?fileID=2800000&amp;guid=91d110a4b12051a44a11dd9d84b344ab&amp;type=3#Field 1&apos;);">
+        <ui:Label tabindex="-1" text="Paused" display-tooltip-when-elided="true" name="Title" class="title" />
+        <ui:VisualElement name="Content" style="flex-grow: 1; -unity-font-style: normal; flex-direction: row;">
+            <ui:VisualElement name="Sprite1" style="flex-grow: 1;" />
+            <ui:VisualElement name="ControlsGroup" style="flex-grow: 1;">
+                <ui:Button text="Resume" display-tooltip-when-elided="true" name="ResumeButton" class="button" />
+                <ui:Button text="Menu" display-tooltip-when-elided="true" name="MenuButton" class="button" />
+            </ui:VisualElement>
+            <ui:VisualElement name="Sprite2" style="flex-grow: 1; background-image: none;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
